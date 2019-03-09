@@ -4,21 +4,25 @@ Facebook Emoticon (Helper)
 
 Usage :
 
+```php
 require_once('helpers/facebook_emoticons.php');
+```
 
-
-
-````php
+```php
 $text = Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor 😅 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi 😀 ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia😂 deserunt mollit anim id est laborum.
+```
 
+```php
 <?php echo facebook_emoticons($text);?>
+```
 
-````html
+
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -2596,3 +2600,4 @@ proident, sunt in culpa qui officia😂 deserunt mollit anim id est laborum.
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </html>
+```
